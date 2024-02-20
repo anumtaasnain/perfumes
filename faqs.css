@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200;1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lorem{
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    bottom: 30px;
+}
+.question{
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    margin-top: 50px;
+    font-weight: 5000;
+    font-family: bolder;
+    font-style: initial;
+}
+#accordion{
+    padding-top: 10px;
+    margin:  auto ;
+    max-width: 75%;
+}
+#accordion li{
+    list-style: none;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+}
+#accordion li label{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.5);
+}
+#accordion li label span{
+    transform: rotate(90deg);
+    font-size: 22px;
+    color: #333;
+}
+#accordion label + input[type="radio"]{
+    display: none;
+}
+#accordion .content{
+    padding: 0 10px;
+    line-height: 26px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+#accordion label + input[type="radio"]:checked + .content{
+    max-height: 400px;
+}
