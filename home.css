@@ -130,7 +130,7 @@ background-color: #f6efdb;
  
   }
   .terms div{
-    height: 122vh;
+    height: auto;
     width: 87%;
     margin-top: 150px;
    
@@ -148,7 +148,7 @@ background-color: #f6efdb;
   
   }
   .policy div{
-    height: 141vh;
+    height: auto;
     width: 87%;
     margin-top: 150px;
   }
