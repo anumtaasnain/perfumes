@@ -36,11 +36,6 @@
       position: relative;
 
   }
-  
-  #product-1 .pro:hover{
-    box-shadow: 25px 24px 24px 24px rgba(10, 8, 42, 0.1);
-    
-  }
   #product-1 .pro img{
       width: 100%;
       border-radius: 15px;
